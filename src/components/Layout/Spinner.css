@@ -1,0 +1,24 @@
+.wrapper {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  animation: rotate 2.5s linear infinite;
+}
+
+.circle2 {
+  box-shadow: 0px 5px 5px 3px #0496ff;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
