@@ -1,21 +1,12 @@
-/* @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"; */
- /* body {
-	 margin-top: 10%;
-	 margin-left: 10%;
-} */
-
- /* form {
-	 display: inline-block;
-	 margin: 0 auto;
-} */
  .pseudo-search {
 	 display: inline;
 	 border: 2px solid #ccc;
 	 border-radius: 100px;
 	 padding: 10px 15px;
 	 transition: background-color 0.5 ease-in-out;
-}
- .pseudo-search input {
+	}
+	.pseudo-search input {
+	 width: 90%;
 	 border: 0;
 	 background-color: transparent;
 	 /* width: 400px; */
